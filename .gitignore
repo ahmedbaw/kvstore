@@ -1,0 +1,15 @@
+*.exe
+*.test
+*.prof
+*.out
+*.log
+.env
+/bin/
+/build/
+# /vendor/
+
+
+# Data files generated during local testing/runs
+# /data/
+
+

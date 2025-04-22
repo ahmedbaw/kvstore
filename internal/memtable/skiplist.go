@@ -2,10 +2,8 @@ package memtable
 
 import "time"
 
-const (
-	maxLevel    = 10
-	probability = 0.5 // Probability for level promotion
-)
+const maxLevel = 10
+const probability = 0.5
 
 type Node struct {
 	key     string
